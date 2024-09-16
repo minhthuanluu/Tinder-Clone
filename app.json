@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tinderclone",
+    "name": "JTinder",
     "slug": "tinderclone",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.minhthuan.luu.tinderclone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d8523d84-93b7-461e-bc4e-ef10427e2f54"
+      }
     }
   }
 }
